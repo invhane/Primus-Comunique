@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Pristina';
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(190, 190, 190, 0.7), rgba(185, 65, 65, 0.7)), url(images/mlogo.png);
+    background-position: center;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.navbar{
+    height: 12%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 70px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+nav{
+    flex: 1;
+    text-align: center;
+}
+.title{
+    font-family: Pristina;
+    font-size: 50px;
+    text-decoration: none;
+    color:darkred;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+nav ul li :hover{
+    color: gold;
+}
+nav ul li a{
+    text-decoration: none;
+    background-size: auto;
+    color: darkred;
+    font-family: Cambria;
+    font-size: 18px;
+}
+section{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+h1{
+    text-align: center;
+    text-shadow: 1px;
+    font-family: Edwardian Script ITC;
+    font-size: 40px;
+}
+h2{
+    text-align: center;
+}
+h3{
+    font-family: Gabriola;
+    text-align: center;
+    color: gold;
+}
+section.school-awards{
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: white;
+    border: 1px solid darkred;
+    border-radius: 3px;
+}
+section.school-awards img{
+    width: 220px;
+    height: 300px;
+    margin-left: 36%;
+    margin-right: 36%;
+}
+section.student-awards{
+    background-color: white;
+    border: 1px solid darkred;
+    border-radius: 3px;
+}
+table{
+    width: 400px;
+    border: 1px solid;
+    text-align: center;
+    margin-left: 33%;
+    margin-right: 33%;
+}
+td{
+    font-family: 'Times New Roman';
+}
+h1 a{
+    text-decoration: none;
+    color: darkred;
+    font-family: Edwardian Script ITC;
+}
+h4{
+    color: black;
+    font-size: 30px;
+}
+section.scan{
+    margin-left: 17%;
+    margin-right: 17%;
+    margin-bottom: 5%;
+}
+div.scan{
+    margin: 5px;
+    margin-left: 0;
+    text-decoration: none;
+    border: 1px solid #777;
+    border-radius: 3px;
+    width: 280px;
+    display: inline-table;
+}
+div.scan :hover{
+    border: 1 px solid darkred;
+}
+div.scan img{
+    width: 100%;
+    height: 180px;
+    opacity: 1;
+}  
+div.desc {
+    color: black;
+    background-color: white;
+    font-size: larger;
+    padding: 15px;
+    text-align: center;
+}
+div.scan a:hover{
+    text-decoration: underline;
+}
+div.scan a{
+    text-decoration: none;
+}
+h5{
+    color: white;
+    font-family: Pristina;
+    font-size: 20px  
+}
+.footerlogo{
+    width: 100px;
+    margin-top: 5px;
+    align-items: center;
+}
+.contact{
+    width: 40px;
+    margin: 5px;
+    align-items: center;
+    vertical-align: middle;
+
+}
+a{
+    font-family: constantia;
+}
+footer{
+    height: 250px;
+    background-color: darkred;
+}
+footer ul li{
+    border-radius: 2px;
+}
+footer ul li :hover{
+    color: gold;
+}
+footer ul li a{
+    font-size: 13px;
+    color: white;
+}
